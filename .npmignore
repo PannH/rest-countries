@@ -1,0 +1,12 @@
+node_modules/
+package-lock.json
+
+src/
+
+biome.json
+tsconfig.json
+.gitignore
+.npmignore
+
+docs/
+typedoc.json

@@ -1,0 +1,11 @@
+{
+   "entryPoints": [
+      "src/index.ts"
+   ],
+   "name": "REST Countries",
+   "out": "docs",
+   "tsconfig": "tsconfig.json",
+   "navigation": {
+      "includeGroups": true
+   }
+}
