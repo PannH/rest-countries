@@ -1,6 +1,6 @@
 {
    "name": "rest-countries",
-   "version": "1.0.0-dev",
+   "version": "1.0.0",
    "description": "A type-safe and seamless wrapper for the REST Countries API v3.1 (https://restcountries.com/)",
    "main": "dist/index.js",
    "scripts": {
@@ -28,7 +28,7 @@
    "bugs": {
       "url": "https://github.com/PannH/rest-countries/issues"
    },
-   "homepage": "https://github.com/PannH/rest-countries#readme",
+   "homepage": "https://pannh.github.io/rest-countries/",
    "devDependencies": {
       "@types/node": "^20.12.8",
       "typedoc": "^0.25.13",
