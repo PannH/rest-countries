@@ -1,6 +1,6 @@
 {
    "name": "rest-countries",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "description": "A type-safe and seamless wrapper for the REST Countries API v3.1 (https://restcountries.com/)",
    "main": "dist/index.js",
    "scripts": {
