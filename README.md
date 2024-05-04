@@ -27,7 +27,7 @@ import { getAll, searchByName } from 'rest-countries';
 const countries = await getAll();
 
 // Fetch all the countries with filtered fields (this will make the request faster)
-const countries = await getAll({ fields: ['name', 'capital', 'population'] });
+const countries = await getAll(['name', 'capital', 'population']);
 
 // Search for a country by name
 const country = await searchByName('Vietnam');
