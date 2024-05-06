@@ -29,6 +29,6 @@ const countries = await getAll();
 // Fetch all the countries with filtered fields (this will make the request faster)
 const countries = await getAll(['name', 'capital', 'population']);
 
-// Search for a country by name
-const country = await searchByName('Vietnam');
+// Search amoung countries by their name
+const countries = await searchByName('Vietnam');
 ```
