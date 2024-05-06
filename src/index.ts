@@ -55,7 +55,9 @@ async function _get(
  * const countries = await getAll(['name', 'capital']);
  * ```
  */
-async function getAll(fields?: FieldName[]): Promise<Country[]> {
+async function getAll<F extends FieldName>(
+   fields?: F[]
+): Promise<Pick<Country, F>[]> {
    return await _get('/all', {
       params: {
          fields: _parseParams(fields)
